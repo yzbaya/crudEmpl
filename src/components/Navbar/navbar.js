@@ -68,15 +68,6 @@ export default function Navbar() {
               </li>
             </div>
 
-            <button className="button-18">
-              <CustomLink to="/">
-                <img
-                  alt=""
-                  src={"https://www.citygo.tn/assets/img/user24.png"}
-                />
-                Espace Client
-              </CustomLink>
-            </button>
           </div>
         </ul>
       </div>

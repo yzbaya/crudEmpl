@@ -1,17 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import EmpListing from './components/EmpListing';
-import EmpCreate from './components/EmpCreate';
-import EmpDetail from './components/EmpDetail';
-import EmpEdit from './components/EmpEdit';
+import EmpListing from './components/CrudPage/EmpListing';
+import EmpCreate from './components/CrudPage/EmpCreate';
+import EmpDetail from './components/CrudPage/EmpDetail';
+import EmpEdit from './components/CrudPage/EmpEdit';
 import Footer from './components/Footer/footer';
-import Navbar from './components/Navbar/navbar'
+import Acceuil from './components/Acceuil/Acceuil';
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+
       <BrowserRouter>
-      <Navbar/>
+      <Acceuil/>
         <Routes>
           <Route path='/' element={<EmpListing />}></Route>
           <Route path='/employee/create' element={<EmpCreate />}></Route>

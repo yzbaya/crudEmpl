@@ -11,7 +11,7 @@ function Footer() {
   return (
     <Box
       sx={{
-        py: 3,
+     
         borderRadius: 2,
         bgcolor: "#000",
         textAlign: "left",
@@ -30,75 +30,60 @@ function Footer() {
             sfhssry,ry;ury,jcndhkufgnicyefrzyrfgizbyf
           </p>
         </div>
-        <div className="col-md-3">
-          <h4>
-            <span>S</span>ociété
-          </h4>
-          <a href="">Conditions d'annulation</a>
-          <br />
-          <br />
-          <h4>
-            <span>S</span>ervices client
-          </h4>
-          <a href="">Contact</a>
-          <br />
-          <a href="">Agences</a> <br />
-          <a href="">Espace client</a>
-        </div>
-        <div className="col-md-4 col-sm-12 ">
+    
+        <div className="">
           <h4>
             <span>N</span>os Contact
           </h4>
-          <div className="col-md border-bottom">
+         
             <FaHome /> Avenue Abdelhamid El Kadhi, Z1 La Corniche Sousse 4000
             <br />
-          </div>
-          <div className="col-md border-bottom">
+       
+          
             <FaEnvelope /> contact@citygo.tn
             <br />
-          </div>
-          <div className="col-md border-bottom">
+         
+        
             <FaPrint /> +216 36 290 000
-            <br />
-          </div>
-          <div className="col-md border-bottom">
+      
+         
             <FaPhone /> Tunisie: +216 53 168 168
             <br />
-          </div>
-          <div>
+       
+      
             <FaPhone /> France: +336 28 962 689
-          </div>
+         
         </div>
       </div>
 
-      <div>
-        <ul className="footer-col">
-          <li>
+    
+        <div className="">
+          
             <b>Suivez-nous</b>
-          </li>
+         
           <div className="social-links">
-            <li>
+            
               <a href="">
                 <FacebookIcon />
               </a>
-            </li>
-            <li>
+            
+           
               <a href="">
                 <InstagramIcon />
               </a>
-            </li>
-            <li>
+         
+        
               <a href="">
                 <LinkedInIcon />
               </a>
-            </li>
+         
           </div>
-        </ul>
+       
 
-        <div className="apropos1">
+        {/* <div className="apropos1">
           © 2023 Tous droits réservés. Powered BY{" "}
           <span className="color">YZBaya</span>
-        </div>
+        </div> */}
       </div>
     </Box>
   );
